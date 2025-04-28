@@ -1,0 +1,28 @@
+.note-palette {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-sample {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    user-select: none;
+  }
+  

@@ -1,0 +1,35 @@
+/* Grid wrapper */
+.grid-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* Grid container - grid lines */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(100, 200px);
+    grid-template-rows: repeat(100, 200px);
+    border: 1px solid transparent; /* Makes grid lines visible */
+  }
+  
+  /* Notes on top of the grid */
+  .note {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: grab;
+    z-index: 10; /* Ensure the note is above the grid */
+  }
+  
+  .note:active {
+    cursor: grabbing;
+  }
+  

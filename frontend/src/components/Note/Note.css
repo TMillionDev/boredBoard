@@ -1,0 +1,16 @@
+.note {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: grab;
+}
+
+.note:active {
+  cursor: grabbing;
+}
